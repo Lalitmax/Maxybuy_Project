@@ -20,7 +20,7 @@ body{
     align-items: center;
     min-height: 100vh;
     
-    background-color: white;
+    background-color: var(--body-background-color);
     background-size: cover;
     background-position:center;
     
@@ -42,13 +42,13 @@ header{
 .logo{
    
     font-size: 2em;
-    color:black;
+    color:var(--text-btn-color);
     user-select: none;
 }
 .navigation a{
     position: relative;
     font-size: 1.1em;
-    color: black;
+    color: var(--text-btn-color);
     text-decoration: none;
     font-weight: 550;
     margin-left: 40px;
