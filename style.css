@@ -40,6 +40,19 @@ header{
     z-index: 99;
 
 }
+
+/* .navigation .searchicon{
+    
+ 
+    margin-left: -30px;
+    width: 40px;
+    height: 50px;
+
+    
+    
+} 
+*/
+
 .wtlp{
     justify-content: center;
     align-items: center;
@@ -301,4 +314,26 @@ header{
 .login-register p a:hover{
     text-decoration: underline;
 
+}
+
+.searchbar{
+    width: 400px;
+    border-radius: 10px;
+    border-color:rgb(73, 73, 217)  ;
+    padding: 8px;
+    margin-left: 40px;
+    
+    
+}
+.searchicon{
+    margin-left: -34px;
+    margin-bottom: -6px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    cursor: pointer;
+    
+   
+    
+    
 }
