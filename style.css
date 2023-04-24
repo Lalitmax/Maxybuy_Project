@@ -36,6 +36,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    box-shadow: 0 0 5px black;
 
 }
 
