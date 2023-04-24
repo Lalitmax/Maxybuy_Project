@@ -33,11 +33,17 @@ header{
     width: 100%;
     padding: 20px 100px;
     display: flex;
+    background-color:var(--body-background-color) ;
+    box-shadow: 0 0 5px black;
     justify-content: space-between;
     align-items: center;
     z-index: 99;
     box-shadow: 0 0 5px black;
 
+}
+.wtlp{
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -45,14 +51,16 @@ header{
     font-size: 2em;
     color:var(--text-btn-color);
     user-select: none;
+    font-weight: 550;
 }
 .navigation a{
     position: relative;
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: var(--text-btn-color);
     text-decoration: none;
-    font-weight: 550;
+    font-weight: 500;
     margin-left: 40px;
+    font-family: 'Poppins' ,sans-serif;
 
 
 }
@@ -104,7 +112,7 @@ header{
     transform-origin: left;
     transform: scaleX(1);
 
-}
+} 
 
 .wrapper{
     position: relative;
@@ -119,7 +127,7 @@ header{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: transform .3s ease , height .2s ease;
 
 
@@ -276,7 +284,7 @@ header{
     font-size: .9em;
     color: var(var(--text-btn-color));
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;
     margin: 25px 0 10px;
     
 

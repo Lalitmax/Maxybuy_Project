@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 
 <body>
+    <div class="w3-animate-opacity">
+    
+    
     <header>
         <h2 class="logo">Maxybuy</h2>
         <nav class="navigation">
@@ -17,81 +21,15 @@
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
-            <button class="btn-popup">Login</button>
+            <button class="btn-popup" onclick="window.location.href = 'loginbutton.html';" >Login</button>
         </nav>
     </header>
+    <img src="lalit4.jpg" height="500px">
+
+    
 
 
-
-    <div class="wrapper">
-        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
-
-        <div class="form-box login">
-            <h2>Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>password</label>
-                </div>
-                <div class="remember-forget">
-                    <label><input type="checkbox"> Remember me
-
-                    </label>
-                    <a href="#">Forget password?</a>
-                </div>
-                <button type="submit" class="sbtm">Login</button>
-                <div class="login-register">
-                    <p>
-                        Don't have an account?
-                        <a href="#" class="register-link">Register</a>
-                    </p>
-                </div>
-            </form>
-        </div>
-
-
-        <div class="form-box register">
-            <h2>Registration</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="person-circle-outline"></span>
-                    <input type="text" required>
-                    <label>Username</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>password</label>
-                </div>
-                <div class="remember-forget">
-                    <label><input type="checkbox"> I agree to the terms & conditions
-
-                    </label>
-                    <!-- <a href="#">Forget password?</a> -->
-                </div>
-                <button type="submit" class="sbtm">Register</button>
-                <div class="login-register">
-                    <p>
-                        Already have an account?
-                        <a href="#" class="login-link">Login</a>
-                    </p>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
+</div>
 
 
     <script src="script.js"></script>
