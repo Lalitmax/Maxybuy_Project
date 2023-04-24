@@ -124,7 +124,7 @@ header{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: transform .3s ease , height .2s ease;
 
 
