@@ -318,7 +318,7 @@ header{
 
 .searchbar{
     width: 400px;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color:rgb(73, 73, 217)  ;
     padding: 8px;
     margin-left: 40px;
