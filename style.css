@@ -59,11 +59,16 @@ header{
 }
 
 .logo{
-   
+    height: 60px;
+    margin-left: -74px;
     font-size: 2em;
     color:var(--text-btn-color);
     user-select: none;
     font-weight: 550;
+    border: 2px solid #555;
+    border-radius: 11px
+
+    
 }
 .navigation a{
     position: relative;
