@@ -52,11 +52,12 @@ header{
 
 .logo{
     font-size: 2em;
-    margin-top: -90px;
+    bottom: 50px;
     color:var(--text-btn-color);
     user-select: none;
     text-shadow: 0 0 5px rgb(40, 135, 218);
     font-weight: 550;
+    position: relative;
     
    
 
@@ -64,12 +65,14 @@ header{
 }
 .logoicon{
     
-   
+    position: relative;
     height: 94px;
-    margin-left: -110px;
-    margin-bottom: 21px;
+    /* margin-left: -110px;
+    margin-bottom: 21px; */
     border-radius: 1px;
     box-shadow: 100%;
+    top: 30px;
+    right: 115px;
     
     
 

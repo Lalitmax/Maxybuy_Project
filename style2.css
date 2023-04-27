@@ -33,7 +33,7 @@ body{
 .header h1{
     font-size: 6em;
     text-transform: uppercase;
-    color: var(--bodyBack);
+    visibility: hidden;
 }
 .products{
     width: 100%;
