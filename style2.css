@@ -31,7 +31,7 @@ body{
     text-align: center;
 }
 .header h1{
-    font-size: 6em;
+    font-size: 0em;
     text-transform: uppercase;
     visibility: hidden;
 }
@@ -47,8 +47,8 @@ body{
 .product{
     position: relative;
     background-color: var(--sectionBack);
-    width: 350px;
-    height: 100%;
+    width: 425px;
+    height:610px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     display: flex;
     flex-direction: column;
@@ -67,9 +67,7 @@ body{
     display: grid;
     place-content: center;
 }
-.image img{
-    width: 240px;
-}
+
 .namePrice{
     width: 100%;
     display: flex;
@@ -81,9 +79,10 @@ body{
     text-transform: capitalize;
     color: var(--textColor);
 }
-.namePrice span{
+.namePrice h4{
     font-size: 1.5em;
     color: var(--starColor);
+    font-weight: bold;
 }
 .product p{
     font-size: 18px;
