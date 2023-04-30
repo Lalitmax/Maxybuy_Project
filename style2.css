@@ -47,7 +47,7 @@ body{
 .product{
     position: relative;
     background-color: var(--sectionBack);
-    width: 425px;
+    width: 420px;
     height:610px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     display: flex;
