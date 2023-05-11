@@ -1,17 +1,18 @@
- /* @import url('https://fonts.googleapis.com/css?family=Sofia');
+ @import url('https://fonts.googleapis.com/css?family=Sofia');
 *{
  margin:0;
     padding: 0;
     box-sizing: border-box; 
-    color: #d9d9d9;
-    /* font-family: 'poppins', sans-serif; 
+    /* color: #d9d9d9; */
+    /* font-family: 'poppins', sans-serif;  */
 }  
-*/
+
 
 footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     width: 100%;
+    box-shadow: 0 0 5px black;
     /* background: #111; */
     background-color: white;
 
@@ -42,7 +43,9 @@ footer{
 
 }
 .left .content .social a{
-    padding: 0 2px;
+    padding: 0 5px;
+
+    
 
 
 }
