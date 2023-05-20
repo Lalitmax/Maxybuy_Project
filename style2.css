@@ -34,6 +34,19 @@ body{
     font-size: 0em;
     text-transform: uppercase;
     visibility: hidden;
+    margin-top: 91px;
+}
+.header2 .textm{
+    font-size: 2em;
+    /* border: 2px solid rgb(176, 179, 204); */
+    height: 60px;
+    background-color: rgb(101, 65, 231);
+    margin-bottom: 23px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    
+  
+    
 }
 .products{
     width: 100%;
